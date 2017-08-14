@@ -1,7 +1,7 @@
 
 #footer{
 	padding-left:20px;
-	background-color:#8c1515;
+	background-color:#3B444B;
 }
 .wrapper p
 {
@@ -50,19 +50,15 @@ hr{
 }
 
 
-.navi{
-	background-color:#8c1515;
-    border: none;
-}
-
-.navbar .navbar-toggleable-md .fixed-top{
-	background-color:#8c1515;
+.navi .navbar .navbar-toggleable-md .fixed-top{
+	background-color:
+        #black;
 }
 
 .nav-item{
 	color:#FFF;
     font-family:'Times New Roman';
-    background-color:#8c1515;
+    background-color:#black;
 }
 
 
@@ -84,16 +80,25 @@ hr{
     padding-left: 15px;
 }
 .d-pic{
-    width:10em;
-    height: 10em;
+    width:15em;
+    height: 15em;
+    padding-left: 10px;
+    margin-left: 10px;
+   
 }
 
 .panel-heading {
     background-color: gainsboro;
     font-family:'Cormorant SC','Times New Roman';
-    color: maroon;
+    background-color: #3B444B;
+    color:white;
+    font-weight: bolder;
 }
 
+.heading{
+    font-weight:bolder;
+    color: darkcyan;
+}
 
 .panel-body {
     font-family: 'Bellefair','Times New Roman';
