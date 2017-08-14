@@ -16,13 +16,34 @@
     <!-- Bootstrap core CSS -->
     <link href="tpc_files/bootstrap.css" rel="stylesheet">
     <link href="tpc_files/starter-template.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="tpc_files/vertical.css">
     <!--fonts-->
     <link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
   </head>
+<style type="text/css">
+  
+  .cont {  position: relative; }
 
+.cont:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('YBhoZi.jpg');
+   opacity: 0.3;
+}
+
+.content {
+    position: relative; 
+    z-index: 2;
+}​
+
+</style>
   <body>
  <!--navigation bar-->
 	<div class="navi">
@@ -122,7 +143,7 @@
     	           <div class="about" >
                        <div class="panel panel-default">
                             <div  class="panel-heading"><h1 class="heading">About Us</h1></div>
-                            <div class="panel-body">
+                            <div class="panel-body" style="font-size: 22px">
                                 <p>Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance.
 
                                 The Institute, in spite of being young (founded in 2002, jointly by the Government of Rajasthan and the Lakshmi & Usha Mittal Foundation in the public-private partnership mode) is considered as one of the best institutions in its chosen areas of higher learning, both in the state and the country. In addition to having been accredited by the National Assessment & Accreditation Council (NAAC) as an ‘A’ grade institution, the LNMIIT has been ranked fairly high by many different agencies in the recent past as may be noticed elsewhere on this web-portal.</p>
@@ -133,11 +154,11 @@
                     </div>
                     
                     <div class="director">
-                        <div class="panel panel-default">
+                        <div class="panel panel-default cont">
                             <div class="panel-heading"><h1 class="heading">From the Director's Desk</h1> 
-                                
                             </div>
-                             <p class="panel-body">Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance.
+                            <div class="container">
+                             <p class="panel-body" style="font-size: 22px; flood-color: black">Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance.
 
                             The Institute, in spite of being young (founded in 2002, jointly by the Government of Rajasthan and the Lakshmi & Usha Mittal Foundation in the public-private partnership mode) is considered as one of the best institutions in its chosen areas of higher learning, both in the state and the country. In addition to having been accredited by the National Assessment & Accreditation Council (NAAC) as an ‘A’ grade institution, the LNMIIT has been ranked fairly high by many different agencies in the recent past as may be noticed elsewhere on this web-portal.
 
@@ -146,6 +167,7 @@
                             If you are an aspiring student, we welcome you to take a good look at our website to know more about what the Institute has to offer and preferably consider visiting the campus for getting to know it even better by getting the first hand feel of its ambience and interacting with faculty and students so that you could take a well-informed decision.
 
                             If you have already applied to the LNMIIT, have been offered an admission and accepted the offer, Congratulations and Welcome to this new home of yours for next few years!</p>
+                            </div>
                             <div class="d-card" >
                                     <img class="card-img-top d-pic" src="director-pic.jpg" alt="Prof. Rahul Banerjee">
                                     <div class="card-block">
@@ -161,7 +183,45 @@
                     <h2 class="heading">MaJOR RECRUITERS</h2>
                     </div>
                     <div class="panel-body">
-                    ffbjafbj
+                      <div id="clients" style="margin-bottom:80px; margin-top:20px;">
+  <div class="col-fluid" style="width:100%; margin-left:5%;">
+    <div id="myCarousel" class="carousel slide hidden-phone" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="col-fluid">
+            <div class="row-sm-2"><a href="#x" class="thumbnail"><img
+              src="Amazon.jpg" alt="Image"
+              style="max-width:100%; height:70px;"></a></div>
+                <div class="row-sm-2"><a href="#x" class="thumbnail"><img
+                  src="microsoft.jpg" alt="Image"
+                  style="max-width:100%; height:70px;"></a></div>
+                    <div class="row-sm-2"><a href="#x" class="thumbnail"><img
+                      src="samsung.jpeg" alt="Image"
+                      style="max-width:100%; height:70px;"></a></div>
+                      <div class="row-sm-2"><a href="#x" class="thumbnail"><img
+                        src="Zomato.jpg" alt="Image"
+                        style="max-width:100%; height:70px;"></a></div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="col-fluid">
+                        <div class="row-sm-2"><a href="#x" class="thumbnail"><img
+                          src="image1.jpeg" alt="Image"
+                          style="max-width:100%; height:70px;"></a></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
                     </div>
                 </div>
                
