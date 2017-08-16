@@ -39,7 +39,7 @@
     right: 0;
     z-index: 1;
     background-image: url('YBhoZi.jpg');
-   opacity: 0.2;
+   opacity: 0.12;
 }
 
 .content {
@@ -196,46 +196,88 @@
                                   
                     </div>
                 </div>
-                <div class= "col-xs-10 col-sm-10 col-md-2 col-lg-2 panel panel-default">
-                    <div class="panel-heading">
-                    <h2 class="heading">MAJOR RECRUITERS</h2>
-                    </div>
-                    <div class="panel-body">
-<div id="clients" style="margin-bottom:80px; margin-top:20px;">
-  <div class="col-fluid" style="width:100%; margin-left:5%;">
-    <div id="myCarousel" class="carousel slide hidden-phone" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="col-fluid">
-            <div class="row-sm-2"><a href="#x" class="thumbnail"><img
-              src="Amazon.jpg" alt="Image"
-              style="max-width:100%; height:70px;"></a></div>
-                <div class="row-sm-2"><a href="#x" class="thumbnail"><img
-                  src="microsoft.jpg" alt="Image"
-                  style="max-width:100%; height:70px;"></a></div>
-                    <div class="row-sm-2"><a href="#x" class="thumbnail"><img
-                      src="samsung.jpeg" alt="Image"
-                      style="max-width:100%; height:70px;"></a></div>
-                      <div class="row-sm-2"><a href="#x" class="thumbnail"><img
-                        src="Zomato.jpg" alt="Image"
-                        style="max-width:100%; height:70px;"></a></div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="col-fluid">
-                        <div class="row-sm-2"><a href="#x" class="thumbnail"><img
-                          src="image1.jpeg" alt="Image"
-                          style="max-width:100%; height:70px;"></a></div>
-                        </div>
-                    </div>
-        </div>
-    </div>
-  </div>
+                <div>
+                    
+
+
+
+
+
+
+
+                    <div class="col-md-2">
+<div class="panel panel-default">
+<div class="panel-heading" style="font-size: 24px"> <span class="glyphicon glyphicon-list-alt"></span><b>Major Recruiters</b></div>
+<div class="panel-body">
+<div class="row">
+<div class="col-xs-12">
+<ul class="demo1">
+<li class="news-item">
+<table cellpadding="4">
+<tr>
+<td><img src="Amazon.jpg" width=80% /></td>
+</tr>
+</table>
+</li>
+<li class="news-item">
+<table cellpadding="4">
+<tr>
+<td><img src="microsoft.jpg" width=80% /></td>
+</tr>
+</table>
+</li>
+<li class="news-item">
+<table cellpadding="4">
+<tr>
+<td><img src="Zomato.jpg" width=80% /></td>
+</tr>
+</table>
+</li>
+<li class="news-item">
+<table cellpadding="4">
+<tr>
+<td><img src="images/4.png" width="60" class="img-circle" /></td>
+<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+</tr>
+</table>
+</li>
+<li class="news-item">
+<table cellpadding="4">
+<tr>
+<td><img src="images/5.png" width="60" class="img-circle" /></td>
+<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+</tr>
+</table>
+</li>
+<li class="news-item">
+<table cellpadding="4">
+<tr>
+<td><img src="images/6.png" width="60" class="img-circle" /></td>
+<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+</tr>
+</table>
+</li>
+<li class="news-item">
+<table cellpadding="4">
+<tr>
+<td><img src="images/7.png" width="60" class="img-circle" /></td>
+<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+</tr>
+</table>
+</li>
+</ul>
 </div>
+</div>
+</div>
+<div class="panel-footer"> </div>
+</div>
+</div>
+
+
+
+
+
+
 
 
 
@@ -381,7 +423,7 @@
     <script type="text/javascript">
     $(function () {
         $(".demo1").bootstrapNews({
-            newsPerPage: 3,
+            newsPerPage: 5,
             autoplay: true,
 			pauseOnHover:true,
             direction: 'up',
@@ -395,7 +437,6 @@
             newsPerPage: 4,
             autoplay: true,
 			pauseOnHover: true,
-			navigation: false,
             direction: 'down',
             newsTickerInterval: 2500,
             onToDo: function () {
