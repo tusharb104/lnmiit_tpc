@@ -23,9 +23,6 @@
     <link href="tpc_files/starter-template.css" rel="stylesheet">
     <link rel="stylesheet" href="tpc_files/vertical.css">
     <!--fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
   </head>
  <body>
  <!--navigation bar-->
@@ -113,32 +110,11 @@
           
     <!-- main body-->
           <div class="main-body">
-          		<div class="col-md-2">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="font-size: 24px; color: darkcyan"> <span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
-                            <div class="panel-body">
-                            <div class="row">
-                            <div class="col-xs-12">
-                            <ul class="demo2" style="font-size: 20px;">
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            </ul>
-                            </div>
-                            </div>
-                            </div>
-                            <div class="panel-footer">
-                            <a href="#">See More</a>
-                         </div>
-                    </div>
-                </div>
 
 
 
-               <div class="col-sm-8 text-left"> 
+
+               <div class="col-sm-9 text-left"> 
     	           <div class="about" >
 
                        <div class="panel panel-default">
@@ -189,9 +165,31 @@
 
 
 
-                    <div class="col-md-2">
+                    <div class="col-md-3">
 <div class="panel panel-default">
-	<div class="panel-heading" style="font-size: 24px ; color: darkcyan"> <span class="glyphicon glyphicon-list-alt"></span><b>Major Recruiters</b></div>
+
+  <div class="panel-heading" style="font-size: 24px; color: darkcyan"> <span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
+                            <div class="panel-body">
+                            <div class="row">
+                            <div class="col-xs-12">
+                            <ul class="demo2" style="font-size: 20px;">
+                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                            </ul>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="panel-footer">
+                            <a href="#">See More</a>
+                         </div>
+
+
+
+	<div class="panel-heading" style="font-size: 24px ; color: darkcyan;margin-top: 10px"> <span class="glyphicon glyphicon-list-alt"></span><b>Major Recruiters</b></div>
 	<div class="panel-body">
 		<div class="row">
 			<div class="col-xs-12">
@@ -249,6 +247,11 @@
 			</div>
 		</div>
 	</div>
+
+                      
+
+
+
 <div class="panel-footer"> </div>
 </div>
 </div>
@@ -392,8 +395,8 @@
         $(".demo1").bootstrapNews({
             newsPerPage: 5,
             autoplay: true,
-			pauseOnHover:true,
-			navigation:false,
+			      pauseOnHover:true,
+			      navigation:false,
             direction: 'down',
             newsTickerInterval: 4000,
             onToDo: function () {
