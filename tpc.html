@@ -35,11 +35,13 @@
         
         <a class="navbar-brand" style="margin-top: -20px" href="https://www.lnmiit.ac.in/"><img class="mb-3 img-fluid img-reponsive" src="logo.gif" alt="LNMIIT" width= 150px height=100px></a> 
        
-      <div class="collapse navbar-collapse justify-content-end navbar-right float-cont" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse justify-content-end navbar-right float-cont dropdown" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto float-cont navbar-center">
+          <ul class="dropdown-menu">
           <li class="nav-item">
             <a class="nav-link" href="#" style="font-size:20px " style="color:#FFF; font-family:AccoladeSerial-Xbold;">Home </a>
           </li>
+          </ul>
           <li class="nav-item">
             <a class="nav-link" href="#" style="font-size:20px" style="color:#FFF">Recruiters</a>
           </li> 
@@ -182,14 +184,14 @@
                             </ul>
                             </div>
                             </div>
-                            </div>
                             <div class="panel-footer">
                             <a href="#">See More</a>
                          </div>
+</div>
 
 
-
-	<div class="panel-heading" style="font-size: 24px ; color: darkcyan;margin-top: 10px"> <span class="glyphicon glyphicon-list-alt"></span><b>Major Recruiters</b></div>
+<div class="panel panel-default">
+	<div class="panel-heading" style="font-size: 24px ; color: darkcyan;margin-top: 0px"> <span class="glyphicon glyphicon-list-alt"></span><b>Major Recruiters</b></div>
 	<div class="panel-body">
 		<div class="row">
 			<div class="col-xs-12">
@@ -247,7 +249,8 @@
 			</div>
 		</div>
 	</div>
-
+</div>
+</div>
                       
 
 
@@ -393,7 +396,7 @@
     <script type="text/javascript">
     $(function () {
         $(".demo1").bootstrapNews({
-            newsPerPage: 4,
+            newsPerPage: 5,
             autoplay: true,
 			      pauseOnHover:true,
 			      navigation:false,
