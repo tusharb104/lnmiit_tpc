@@ -25,6 +25,11 @@
     <link rel="stylesheet" href="tpc_files/vertical.css">
     <!--fonts-->
   </head>
+  <style type="text/css">
+    body{
+      font-style: calibri;
+    }
+  </style>
  <body>
  <!--navigation bar-->
 	<div class="navi ">
@@ -185,9 +190,6 @@
 
 </div><!--main body-->
      
-     <div class='recruit'>
-        <div></div>
-     </div>
 
 
 
@@ -196,7 +198,42 @@
 
     </div><!-- /.container -->
 
-
+<br>
+<div class="panel panel-default">
+                            <div class="panel-heading"><h3 class="heading">Major Recruiters</h3> </div>
+     <div class='recruit panel-default autoplay'>
+        <div >
+          <img src="Amazon.jpg"  width="40%" border="5">
+        </div>
+        <div>
+          <img src="microsoft.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>
+        <div>
+          <img src="Amazon.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>
+        <div>
+          <img src="Amazon.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>
+        <div>
+          <img src="Amazon.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>
+        <div>
+          <img src="Amazon.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>
+        <div>
+          <img src="Amazon.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>
+        <div>
+          <img src="Amazon.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>
+        <div>
+          <img src="Amazon.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>
+        <div>
+          <img src="Amazon.jpg" style="padding: 10px;margin: 10px;border: 10px grey" border="5">
+        </div>  
+     </div>
+     </div>
 
     <footer id="footer">
     <div class="container">
@@ -362,14 +399,18 @@
 <script type="text/javascript">
   $(document).ready(function(){
     $('.autoplay').slick({
-  slidesToShow: 5,
+  slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
+  prevArrow: false,
+    nextArrow: false,
 });
 
   $('.recruit').slick({
-    autoplay: setting-value
+    autoplay: true,
+    prevArrow: false,
+    nextArrow: false,
   });
 });
 
