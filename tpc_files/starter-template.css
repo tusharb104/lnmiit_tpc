@@ -49,7 +49,18 @@ hr{
     padding-right: 0px;
 }
 
+.navbar-custom{
+    background-color: #800000;
+    text-decoration-color: #FFFFFF;
+    color:#FFFFFF;
+}
+a{
+    color:white;
+}
 
+.links{
+    color:white;
+}
 .navi .navbar .navbar-toggleable-md .fixed-top{
 	background-color:
         #black;
@@ -64,8 +75,8 @@ hr{
 	color:#FFF;
     font-family:'Times New Roman';
     background-color:#black;
+    border:10px 1px 1px 1px;
 }
-
 
 .main-body{
     width: inherit;
@@ -96,13 +107,13 @@ hr{
     background-color: gainsboro;
     font-family:'Cormorant SC','Times New Roman';
     background-color: #3B444B;
-    color:white;
+    color:#800000;
     font-weight: bolder;
 }
 
 .heading{
     font-weight:bolder;
-    color: darkcyan;
+    color: #800000;
 }
 
 .panel-body {
