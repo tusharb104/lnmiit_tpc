@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -10,18 +10,12 @@
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-	<link href="css/site.css" rel="stylesheet" type="text/css" />
-	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="scripts/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
-    
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+  <link href="css/site.css" rel="stylesheet" type="text/css" />
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="scripts/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
     <title>Placement cell lnmiit</title>
 
@@ -30,13 +24,15 @@
     <link href="tpc_files/starter-template.css" rel="stylesheet">
     <link rel="stylesheet" href="tpc_files/vertical.css">
     <!--fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
   </head>
+  <style type="text/css">
+    body{
+      font-style: calibri;
+    }
+  </style>
  <body>
  <!--navigation bar-->
-	<div class="navi ">
+  <div class="navi ">
     <nav class="navbar navbar-toggleable-md fixed-top navbar-inverse" style="background-color:#black">
 
        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,16 +41,25 @@
         
         <a class="navbar-brand" style="margin-top: -20px" href="https://www.lnmiit.ac.in/"><img class="mb-3 img-fluid img-reponsive" src="logo.gif" alt="LNMIIT" width= 150px height=100px></a> 
        
-      <div class="collapse navbar-collapse justify-content-end navbar-right float-cont" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse justify-content-end navbar-right float-cont dropdown" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto float-cont navbar-center">
           <li class="nav-item">
             <a class="nav-link" href="tpc.html" style="font-size:20px " style="color:#FFF; font-family:AccoladeSerial-Xbold;">Home </a>
           </li>
+         
           <li class="nav-item">
             <a class="nav-link" href="#" style="font-size:20px" style="color:#FFF">Recruiters</a>
           </li> 
-          <li class="nav-item">
-            <a class="nav-link" href="acad_momemtum.html" style="font-size:20px" style="color:#FFF">Academics</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="font-size: 20px;" data-toggle="dropdown" href="#">Academics
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu" >
+              <li><a  href="acad_momemtum.html">Academic Momentum</a> </li>
+              <li><a  href="ug_prog.html">UG Programme</a> </li>
+              <li><a  href="pg_prog.html">PG Programme</a> </li>
+              <li><a  href="phd_prog.html">PHD Programme</a> </li>
+              <li><a  href="grading_policy.html">Grading Policy</a> </li>
+            </ul>
           </li>
             <li class="nav-item">
             <a class="nav-link" href="contact_us.html" style="font-size:20px" style="color:#FFF">Contact Us</a>
@@ -64,8 +69,8 @@
         
       </div>
 
-        <a class="navbar-brand logo" href="#" style="font-family:'Times New Roman'; font-size:2.5em; 
-        text-shadow: 0px 0px 4px black, 0 0 10px black, 0 0 5px darkblue;">Placement Cell</a>
+        <a class="navbar-brand logo" href="#" style="font-family:'Times New Roman'; font-size:2em; 
+        text-shadow: 0px 0px 4px black, 0 0 10px black, 0 0 5px black;">Training & Placement Cell</a>
     </nav>
     
     <h3 style="margin-left: 10px">Contact Placement Cell, LNMIIT</h3><hr>
@@ -120,7 +125,68 @@
     </div>
    </div><br>
    <h3 style="margin-left: 10px; margin-top:400px">Student members</h3><hr>
-        
+            <div class="table-responsive ">
+      <table class="table table-hover">
+        <thead>
+        <tr>
+          <th>Name</th>
+          <th>Contact No.</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Shreyansh Gupta
+            </td>
+            <td>
+              8559990903
+            </td>
+            <td>
+              Sarthak Saxena
+            </td>
+            <td>
+              9462767891
+            </td>
+            <td>
+              Sumit Madhwani
+            </td>
+            <td>
+              7007366879
+            </td>
+            <td>
+              Arushi Gaur
+            </td>
+            <td>
+              8290526977
+            </td>
+            <td>
+              Jiten Singh Sadhwani
+            </td>
+            <td>
+              9408224422
+            </td>
+            <td>
+              Mehul Sharma
+            </td>
+            <td>
+              8769883659
+            </td>
+            <td>
+              Shreyansh Gupta
+            </td>
+            <td>
+              8559990903
+            </td>
+            <td>
+              Uma Bhatiya
+            </td>
+            <td>
+              9672984323
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 <div class="row" style="margin-top:300pxS">
 <!-- Third Container (Grid) -->
 
