@@ -15,6 +15,7 @@
 	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="scripts/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
     <title>Placement cell lnmiit</title>
 
@@ -24,6 +25,11 @@
     <link rel="stylesheet" href="tpc_files/vertical.css">
     <!--fonts-->
   </head>
+  <style type="text/css">
+    body{
+      font-style: calibri;
+    }
+  </style>
  <body>
  <!--navigation bar-->
 	<div class="navi ">
@@ -35,16 +41,25 @@
         
         <a class="navbar-brand" style="margin-top: -20px" href="https://www.lnmiit.ac.in/"><img class="mb-3 img-fluid img-reponsive" src="logo.gif" alt="LNMIIT" width= 150px height=100px></a> 
        
-      <div class="collapse navbar-collapse justify-content-end navbar-right float-cont" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse justify-content-end navbar-right float-cont dropdown" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto float-cont navbar-center">
           <li class="nav-item">
-            <a class="nav-link" href="#" style="font-size:20px " style="color:#FFF; font-family:AccoladeSerial-Xbold;">Home </a>
+            <a class="nav-link" href="tpc.html" style="font-size:20px " style="color:#FFF; font-family:AccoladeSerial-Xbold;">Home </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="font-size: 20px;" data-toggle="dropdown" href="#">More
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu" >
+              <li><a href="#">more 1</a> </li>
+              <li><a href="#">more 2</a> </li>
+              <li><a href="#">more 3</a> </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" style="font-size:20px" style="color:#FFF">Recruiters</a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" href="#" style="font-size:20px" style="color:#FFF">Academics</a>
+            <a class="nav-link" href="acad_momemtum.html" style="font-size:20px" style="color:#FFF">Academics</a>
           </li>
             <li class="nav-item">
             <a class="nav-link" href="contact_us.html" style="font-size:20px" style="color:#FFF">Contact Us</a>
@@ -54,8 +69,8 @@
         
       </div>
 
-        <a class="navbar-brand logo" href="#" style="font-family:AccoladeSerial-Xbold; font-size:2.5em; 
-        text-shadow: 0px 0px 4px black, 0 0 10px black, 0 0 5px darkblue;">Placement Cell</a>
+        <a class="navbar-brand logo" href="#" style="font-family:'Times New Roman'; font-size:2em; 
+        text-shadow: 0px 0px 4px black, 0 0 10px black, 0 0 5px black;">Training & Placement Cell</a>
     </nav>
     
       <!-- image slider-->
@@ -99,6 +114,7 @@
                   </a>
                 
               </div>
+                 
           </div>
           
           </div>
@@ -111,15 +127,12 @@
     <!-- main body-->
           <div class="main-body">
 
-
-
-
                <div class="col-sm-9 text-left"> 
     	           <div class="about" >
 
                        <div class="panel panel-default">
-                            <div  class="panel-heading"><h2 class="heading">About Us</h2></div>
-                            <div class="panel-body" style="font-size: 20px">
+                            <div  class="panel-heading"><h3 class="heading">About Us</h3></div>
+                            <div class="panel-body" >
 
                                 <p>Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance.
 
@@ -132,10 +145,11 @@
                     
                     <div class="director">
                         <div class="panel panel-default">
-                            <div class="panel-heading"><h2 class="heading">From the Director's Desk</h2> 
+                            <div class="panel-heading"><h3 class="heading">From the Director's Desk</h3> 
                             </div>
-                            <div class="">
-                             <p class="panel-body" style="font-size: 20px; flood-color: black">Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance.
+                            <div class="span12">
+                            <img src="director-pic.jpg" style="margin-top: 20px; margin-left: 15px;margin-right: 5px" height="18%" width="18%" class="pull-left myclass" />
+                             <p class="panel-body" style="flood-color: black">Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance.
 
                             The Institute, in spite of being young (founded in 2002, jointly by the Government of Rajasthan and the Lakshmi & Usha Mittal Foundation in the public-private partnership mode) is considered as one of the best institutions in its chosen areas of higher learning, both in the state and the country. In addition to having been accredited by the National Assessment & Accreditation Council (NAAC) as an ‘A’ grade institution, the LNMIIT has been ranked fairly high by many different agencies in the recent past as may be noticed elsewhere on this web-portal.
 
@@ -146,9 +160,8 @@
                             If you have already applied to the LNMIIT, have been offered an admission and accepted the offer, Congratulations and Welcome to this new home of yours for next few years!</p>
                             </div>
                             <div class="d-card" style="margin-left: 0%" >
-                                    <img class="card-img-top d-pic" src="director-pic.jpg" alt="Prof. Rahul Banerjee">
                                     <div class="card-block">
-                                        <p class="card-text panel-body" style="font-size: 16px;">Prof. Rahul Banerjee<br>Director LNMIIT</p>
+                                        <p class="card-text panel-body" style="font-size: 17px;text-align: right;">-Prof. Rahul Banerjee<br>Director LNMIIT</p>
                                     </div>
                                 </div>
                         </div>
@@ -156,117 +169,80 @@
                     </div>
                 </div>
 
-                <div>
-                    
-
-
-
-
-
+              
 
 
                     <div class="col-md-3">
-<div class="panel panel-default">
+                        <div class="panel panel-default">
 
-  <div class="panel-heading" style="font-size: 24px; color: darkcyan"> <span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
+                            <div class="panel-heading" style="font-size: 20px; color: darkcyan"> <span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
                             <div class="panel-body">
                             <div class="row">
                             <div class="col-xs-12">
-                            <ul class="demo2" style="font-size: 20px;">
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
-                            <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                            <ul class="demo2" style="font-size: 16px;">
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
                             </ul>
                             </div>
                             </div>
-                            </div>
                             <div class="panel-footer">
-                            <a href="#">See More</a>
-                         </div>
+                                <a href="#">See More</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+             
 
-
-
-	<div class="panel-heading" style="font-size: 24px ; color: darkcyan;margin-top: 10px"> <span class="glyphicon glyphicon-list-alt"></span><b>Major Recruiters</b></div>
-	<div class="panel-body">
-		<div class="row">
-			<div class="col-xs-12">
-				<ul class="demo1">
-					<li class="news-item">
-						<table cellpadding="4">
-							<tr>
-								<td><img src="Amazon.jpg" width=100% /></td>
-							</tr>
-						</table>
-					</li>
-					<li class="news-item">
-						<table cellpadding="4">
-							<tr>
-								<td><img src="microsoft.jpg" width=100% /></td>
-							</tr>
-						</table>
-					</li>
-					<li class="news-item">
-						<table cellpadding="4">
-							<tr>
-								<td><img src="Zomato.jpg" width=100% /></td>
-							</tr>
-						</table>
-					</li>
-					<li class="news-item">
-						<table cellpadding="4">
-							<tr>
-								<td><img src="image1.jpeg" width=100% /></td>
-							</tr>
-						</table>
-					</li>
-					<li class="news-item">
-						<table cellpadding="4">
-							<tr>
-								<td><img src="image2.jpeg" width=100% /></td>
-							</tr>
-						</table>
-					</li>
-					<li class="news-item">
-						<table cellpadding="4">
-							<tr>
-								<td><img src="image3.jpeg" width=100% /></td>
-							</tr>
-						</table>
-					</li>
-					<li class="news-item">
-						<table cellpadding="4">
-							<tr>
-								<td><img src="image4.jpeg" width=100% /></td>
-							</tr>
-						</table>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-                      
-
-
-
-<div class="panel-footer"> </div>
-</div>
-</div>
-</div>
-</div>               
-</div>
 </div><!--main body-->
-          
-        
+     
+
+
+
  
       </div><!-- starter template-->
 
     </div><!-- /.container -->
 
-
+<br>
+<div class="panel panel-default">
+                            <div class="panel-heading"><h3 class="heading">Major Recruiters</h3> </div>
+     <div class='recruit panel-default autoplay'>
+        <div >
+          <img src="Amazon.jpg"  width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="microsoft.jpg" width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="Amazon.jpg" width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="Amazon.jpg" width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="Amazon.jpg" width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="Amazon.jpg" width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="Amazon.jpg" width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="Amazon.jpg" width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="Amazon.jpg" width="90%" style="border: 10px solid grey;">
+        </div>
+        <div>
+          <img src="Amazon.jpg" width="90%" style="border: 10px solid grey;">
+        </div>  
+     </div>
+     </div>
 
     <footer id="footer">
     <div class="container">
@@ -286,7 +262,7 @@
                         
                         <li class="text-left" style="margin-left:10px;  font-size:15px; color:#CCC"><a
                             href="http://placements.lnmiit.ac.in/pbl.pdf"
-                            target="_blank">download <span class="glyphicon glyphicon-file"></span></a> latest placement brochure </li>
+                            target="_blank">Download <span class="glyphicon glyphicon-file"></span></a> Latest Placement Brochure </li>
                 </div>
                 <hr style="background-color:#999; height: 1px; border: 0;">
                 <h3 class="footer_header"  style="color:#FFF">
@@ -296,7 +272,7 @@
                 <div class="wrapper">
                 	<li class="text-left" style="margin-left:10px;font-size:15px;color:#CCC""><a
                             href="http://placements.lnmiit.ac.in/esperra/esperra19.pdf"
-                            target="_blank">download<span class="glyphicon glyphicon-file"></span></a>Placement Cell's Newsletter (19th Edition) </li>
+                            target="_blank">Download<span class="glyphicon glyphicon-file"></span></a>Placement Cell's Newsletter,<br>  (19th Edition) </li>
                             </div>
                 
             </div>
@@ -389,6 +365,9 @@
 	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="scripts/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 
     <script type="text/javascript">
     $(function () {
@@ -398,6 +377,7 @@
 			      pauseOnHover:true,
 			      navigation:false,
             direction: 'down',
+            allignment: 'horizontal',
             newsTickerInterval: 4000,
             onToDo: function () {
                 //console.log(this);
@@ -424,6 +404,25 @@
             }
         });
     });
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.autoplay').slick({
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  prevArrow: false,
+    nextArrow: false,
+});
+
+  $('.recruit').slick({
+    autoplay: true,
+    prevArrow: false,
+    nextArrow: false,
+  });
+});
+
 </script>
 </body>
 </html>
