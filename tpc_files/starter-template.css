@@ -94,7 +94,7 @@ hr{
 
 .panel-heading {
     background-color: gainsboro;
-    
+    font-family:'Cormorant SC','Times New Roman';
     background-color: #3B444B;
     color:white;
     font-weight: bolder;
@@ -102,10 +102,7 @@ hr{
 
 .heading{
     font-weight:bolder;
-    font-family:'Cormorant SC','Times New Roman';
-    color: #800000;
-    font-weight: 900;
-
+    color: darkcyan;
 }
 
 .panel-body {
@@ -114,15 +111,4 @@ hr{
     text-align: left;
 }
 
-.student_mem{
-    padding: 2px;
-    align-content: center;
-    font-family: 'Times New Roman';
-    align-self: center;
-    border: 10px 1px 1px 1px solid black;
-    margin-left: 10px;
-}
-td{
-    padding-right: 15px;
-    width:20em;
-}
+
