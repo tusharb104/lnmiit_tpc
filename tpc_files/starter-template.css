@@ -1,7 +1,7 @@
 
 #footer{
 	padding-left:20px;
-	background-color:#343a3b;
+	background-color:#0a3f48;
 }
 .wrapper p
 {
@@ -10,6 +10,9 @@
 .footer_header{
 	color:#CCC;
 	font-size:25px;
+}
+.footer-link{
+    color:#ddf2f6 ;
 }
 
 hr{
@@ -106,19 +109,22 @@ hr{
     background-color: gainsboro;
     font-family:'Cormorant SC','Times New Roman';
     background-color: #3B444B;
-    color:black;
+    color:#0a3f48;
     font-weight: bolder;
+
 }
 
 .heading{
     font-weight:bolder;
-    color: black;
+    color: #0a3f48;
 }
 
 .panel-body {
-    font-family: 'Bellefair','Times New Roman';
+    font-family: 'Times New Roman';
     font-size: 15px;
     text-align: left;
 }
 
-
+#toggle-but{
+     background-color: #0a3f48;
+}

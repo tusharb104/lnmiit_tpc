@@ -30,13 +30,13 @@
  <body>
  <!--navigation bar-->
 	<div class="navi ">
-    <nav class="navbar navbar-toggleable-md fixed-top navbar-inverse">
+    <nav class="navbar navbar-toggleable-md fixed-top " style="background-color: #0a3f48">
 
-       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="color: white">
+       <button class="navbar-toggler navbar-toggler-right navbar-default visible-sm visible-xs" id="toggle-but" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
       </button>
         
-        <a class="navbar-brand" style="margin-top: -20px" href="https://www.lnmiit.ac.in/"><img class="mb-3 img-fluid img-reponsive" src="logo1.png" alt="LNMIIT" width= 150px height=100px></a> 
+        <a class="navbar-brand hidden-md hidden-sm hidden-xs" style="margin-top: -20px" href="https://www.lnmiit.ac.in/"><img class="mb-3 img-fluid img-reponsive" src="logo1.png" alt="LNMIIT" width= 150px height=100px></a> 
        
       <div class="collapse navbar-collapse justify-content-end navbar-right float-cont dropdown" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto float-cont navbar-center">
@@ -68,8 +68,8 @@
         
       </div>
 
-        <a class="navbar-brand logo" href="#" style="font-family:'Times New Roman'; font-size:1.5em; 
-        text-shadow: 0px 0px 4px black, 0 0 10px black, 0 0 5px black; color:#FFFFFF">Training & Placement Cell</a>
+        <a class="navbar-brand logo  hidden-xs hidden-sm hidden-md" href="#" style="font-family:'Times New Roman'; font-size:1.5em;text-shadow: 0px 0px 4px black, 0 0 10px black, 0 0 5px black; color:#FFFFFF">Training & Placement Cell</a>
+        <a class="navbar-brand logo  visible-xs visible-sm visible-md" href="#" style="font-family:'Times New Roman'; font-size:1.25em;text-shadow: 0px 0px 4px black, 0 0 10px black, 0 0 5px black; color:#FFFFFF; margin-left: -5px;">Training & Placement Cell</a>
     </nav>
     
     </div>
@@ -78,9 +78,9 @@
       <div class="starter-template c-wid">
           
     <!-- main body-->
-          <div class="main-body ug-prog">
+          <div class="main-body">
             <h3 class="heading" >UG Programmes</h3>
-            <div  >
+            <div class="panel-body" >
                 <p>The Institute aims to establish a world class platform for creation, dissemintion, and application of knowledge in the fields of Information Technology through research, pedagogy, and consultation, as well as to become an effective catalyst for technological and societal development of the country through interactions with industries and academia.</p><br>
 				<p>Development of a curriculum is an evolving process but the present distribution of courses is under following headings <br><br>
 				<ul style="list-style-type:square;margin-left:60px">
