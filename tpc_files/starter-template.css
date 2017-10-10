@@ -1,7 +1,7 @@
 
 #footer{
 	padding-left:20px;
-	background-color:#3B444B;
+	background-color:#343a3b;
 }
 .wrapper p
 {
@@ -69,7 +69,17 @@ hr{
 .links{
     color:#FFFFFF;
 }
+<<<<<<< HEAD
+=======
+.nav-button{
+    background-color: #eae0c2;
+    color:black;
+    width:60px;
+    height:100%;
+    border-radius: 20px;
+>>>>>>> 280a93825cee757bc6fdafb11674e8b063ecee9b
 
+}
 .main-body{
     width: inherit;
     padding-top: 15px;
@@ -99,13 +109,13 @@ hr{
     background-color: gainsboro;
     font-family:'Cormorant SC','Times New Roman';
     background-color: #3B444B;
-    color:white;
+    color:black;
     font-weight: bolder;
 }
 
 .heading{
     font-weight:bolder;
-    color: darkcyan;
+    color: black;
 }
 
 .panel-body {
