@@ -1,0 +1,130 @@
+
+#footer{
+	padding-left:20px;
+	background-color:#0a3f48;
+}
+.wrapper p
+{
+	color:#FFF;
+}
+.footer_header{
+	color:#CCC;
+	font-size:25px;
+}
+.footer-link{
+    color:#ddf2f6 ;
+}
+
+hr{
+	color:#006;
+}
+
+.float-cont{
+    float:right;
+    text-align: right;
+    transform: 
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+.c-wid {
+    width: 100%;
+    width:inherit;
+    padding-top:  0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.carousel slide{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container {
+    width: inherit;
+    padding-top:  0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.navi .navbar .navbar-toggleable-md .fixed-top{
+    padding-top:  0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.nav-item{
+	color:#FFFFFF;
+    font-family:'Times New Roman';
+
+}
+.nav-custom{
+    color:#FFFFFF;
+}
+.links{
+    color:#FFFFFF;
+}
+.nav-button{
+    background-color: #eae0c2;
+    color:black;
+    width:60px;
+    height:100%;
+    border-radius: 20px;
+
+}
+.main-body{
+    width: inherit;
+    padding-top: 15px;
+    padding-left:5px;
+    padding-right: :15px;
+    padding-bottom:auto;
+}
+.d-pic d-card{
+    border-style: none;
+    border-bottom-width: thin;
+    border-bottom-color: bisque;
+    float:left;
+    width:30px;
+    height:30px;
+    text-align:left;
+    padding-left: 15px;
+}
+.d-pic{
+    width:15em;
+    height: 15em;
+    padding-left: 10px;
+    margin-left: 10px;
+   
+}
+
+.panel-heading {
+    background-color: gainsboro;
+    font-family:'Cormorant SC','Times New Roman';
+    background-color: #3B444B;
+    color:#0a3f48;
+    font-weight: bolder;
+
+}
+
+.heading{
+    font-weight:bolder;
+    color: #0a3f48;
+}
+
+.panel-body {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    text-align: left;
+}
+
+#toggle-but{
+     background-color: #0a3f48;
+}
