@@ -1,0 +1,50 @@
+@import 'foundation';
+
+// @include foundation-grid;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
+.heading{
+	align-content: center;
+}
+.contact_pic{
+	
+	height: 120px;
+	width: 120px;
+	border-color: #F0F0F0;
+	align-self: center;
+	position: relative;
+}
+.con_head{
+	font-size:16px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.con-data{
+	color:#F0F0F0;
+}
+
+.mar-right{
+	margin-right: 30px;
+}
+.members{
+	height: 120px;
+	width: 120px;
+
+}
+.box{
+	position: relative;
+	align-self: center;
+	display: flex;
+	justify-content: space-between;
+ 	flex-flow: row wrap;
+  	align-items:center;
+  	height:100%;
+  	box-shadow: 1.5px 1.5px 8px #F0F0F0;
+  	margin-bottom: 30px;
+  	border-top: 0px;
+  	border-right: 0px;
+  	border-left: 0px;
+  	border-bottom: 0px;
+}
