@@ -40,7 +40,7 @@
 }
 .bgimg-1 {
   background-image: url("images/image3.jpeg");
-  opacity: 0.9;
+  opacity: 2;
   height: 100%;
   max-width: 100%;
 }
@@ -48,7 +48,7 @@
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 30%;
   width: 100%;
   text-align: center;
   vertical-align: text-bottom;
@@ -62,7 +62,9 @@
   font-size: 25px;
   letter-spacing: 10px;
 }
+img{
 
+}
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -74,11 +76,21 @@ h3 {
   max-width: 100%;
 }
 footer div {
-  border-right: 5px solid #ff0000;
+  border-right: 5px;
+  color: white;
 }
 
 footer div:last-child {
   border-right: 0;
+}
+.inlineblock {
+  display: inline-block;
+}
+li.inlineblock ul li{
+  display: inline-block;
+}
+li{
+    white-space: nowrap;
 }
 </style>
    </head>
@@ -87,9 +99,9 @@ footer div:last-child {
 
   <div class="row bgimg-1">
 <div class="large-12 columns">
-<div class="caption">
-    <span class="border" style="font-size: 28px; opacity: 1.0;"><b>The LNM Institute of Technology</b></span><br>
-    <span class="border" style="font-size: 28px; opacity: 1.0;"><b>Training & Placement Cell</b></span>
+<div class="caption" style="opacity: 1;">
+    <span class="border" style="font-size: 52px; opacity: 1.0;"> <font style="opacity: 1 !important;"><b>The LNM Institute of Technology</b></font></span><br>
+    <span class="border" style="font-size: 52px; opacity: 1.0;"> <font style="opacity: 1 !important;"><b>Training & Placement Cell</b></font></span>
   </div>
 
 <div class="first" >
@@ -105,11 +117,14 @@ footer div:last-child {
      
     </ul>
   </div>
-  <div class="top-bar-right" style="background-color: transparent;">
-    <ul class="menu" style="background-color: transparent;">
-          <li><a href="#0" style="color: orange !important;">One</a></li>
-      <li><a href="#0" style="color: orange !important;">Two</a></li>
-      <li><a href="#0" style="color: orange !important;">Three</a></li>
+  <div class="top-bar-center" style="background-color: transparent;">
+    <ul class="menu iconlist" style="background-color: transparent;">
+          <li><a href="#0" style="color: #E85212 !important;font-size: 20px; margin-right: 10px;"><b>Home</b></a></li>
+      <li><a href="#0" style="color: #E85212 !important;font-size: 20px; margin-right: 10px;"><b>Recruiters</b></a></li>
+      <li><a href="#0" style="color: #E85212 !important;font-size: 20px; margin-right: 10px;"><b>Students</b></a></li>
+      <li><a href="#0" style="color: #E85212 !important;font-size: 20px; margin-right: 10px;"><b>Academics</b></a></li>
+      <li><a href="#0" style="color: #E85212 !important;font-size: 20px; margin-right: 10px;"><b>Contact</b></a></li>
+
     </ul>
   </div>
 </div>
@@ -159,20 +174,22 @@ footer div:last-child {
                         </div>
                             
                         <div class="small-12 medium-2 columns"> <h5></h5>   </div>
-                    
-                    </div>      
+                      
+                    </div>  
+
               </div>
+
           </div>
+
       <br>
           <br>
           <br>
           <br>
       </section>
-
+<hr>
 
       <div name="director" class="row">
-        
-            <h2 class="heading" style="color:#FF8C00; text-align: center; font-weight: bolder;">From the director's desk</h3>
+        <h2 class="heading" style="color:#E85212; text-align: center; font-weight: bolder;">From the director's desk</h3>
             <br><br>
           <div class="grid-x grid-padding-x">
               <div class="large-2 medium-2 cell">
@@ -194,13 +211,6 @@ footer div:last-child {
                   </div>
                 </div>
               </div>
-              <div class="large-2 medium-8 cell" >
-                <ul style="list-style-type: none">
-                  <li><a href="#" class="button tiny hollow" style="color:#FF8C00; border-radius: 10px"></a></li> 
-                  <li><a href="#" class="button tiny" style="color:#FF8C00; border-radius: 10px"></a></li> 
-                  <li><a href="#" class="button tiny hollow" style="color:#FF8C00;border-radius: 10px"></a></li> 
-              </div>
-            </div>
             
           </div>
         </div>
@@ -219,66 +229,26 @@ footer div:last-child {
           <br>
           <br>
       
-      <div class = "orbit" role = "region" data-orbit data-use-m-u-i = "false">
+     <!--
+      <div class = "orbit" role = "region" data-orbit data-use-m-u-i = "true">
          <ul class = "orbit-container">
             <button class = "orbit-previous" aria-label = "previous"><span class = "show-for-sr">Previous Slide</span>◀</button>
             <button class = "orbit-next" aria-label = "next"><span class = "show-for-sr">Next Slide</span>▶</button>
-            
+-->
+        <div>
+        <ul class="container">              
             <li class = "is-active orbit-slide">
                <div>
                   <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                   
+                       <div class="medium-3 medium-3 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
+                      <div class="medium-3 medium-3 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
+                      <div class="medium-3 medium-3 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
+                      <div class="medium-3 medium-3 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>
                   </div>
                </div>
             </li>
             
-            <li class = "orbit-slide">
-               <div>
-                  <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                   
-                  </div>
-               </div>
-            </li>
             
-            <li class = "orbit-slide">
-               <div>
-                  <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                   
-                  </div>
-               </div>
-            </li>
-            
-            <li class = "orbit-slide">
-              <div>
-                  <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div> 
-                   
-                  </div>
-               </div>
-            </li>
          </ul>
          
           <br>
@@ -288,7 +258,7 @@ footer div:last-child {
 
 
           
-         <nav class = "orbit-bullets">
+       <!--  <nav class = "orbit-bullets">
             <button class = "is-active" data-slide = "0">
                <span class = "show-for-sr">First slide</span>
                <span class = "show-for-sr">Current Slide</span>
@@ -307,27 +277,53 @@ footer div:last-child {
             </button>
          </nav>
       </div>
-      
+      -->
       
       </section>
      
-      <footer class="row full-width" style="padding-left: 0px;margin-left: 0px;margin-right: 0px; background-color: orange;">
+      <footer class="row full-width" style="padding-left: 0px;margin-left: 0px;margin-right: 0px; background-color: #E67112;">
     <div class="large-12 columns">
       <hr>
       <div class="row full-width">
         <div class="large-3 columns">
-          <p>Content</p>
+          <h6>Quick Links</h6>
+          <p>LNMIIT Home Page</p>
+          <p>Recruiters</p>
+          <p>Academics</p>
+          <p>Student</p>
         </div>
         <div class="large-3 columns">
-          <p>Content</p>
+          <h6>Download</h6>
+          <p>Placement Brochure</p>
+          <p>Placement Policy</p>
+          <p>Internship Policy</p>
+          <p>Esperra' 18</p>
         </div>
         <div class="large-3 columns">
+          <h6>Contact</h6>
+          <p>TPO Office</p>
+          <p>Guest House</p>
+          <p>The LNM Institute of Information & Technology</p>
+          <p>Rupa ki Nangal, Post Sumel, Via Jamdoli</p>
+          <p>Jaipur-302031</p>
+        </div>
+        <div class="large-3 columns alignright">
+          <a href="mailto:placementcell.lnmiit@gmail.com" style="color: white;">placementcell.lnmiit@gmail.com</a>
           <p>Content</p>
         </div>
-        <div class="large-3 columns">
-          <p>Content</p>
-        </div>
+      </div>
 
+    </div>
+    <hr>
+    <div class="large-12 columns">
+      <div class="row full-width">
+      <div class="large-6 columns">
+                <p>Copyright 2017. All rights reserved | Placement Cell LNMIIT</p>
+                </div>
+        <div class="large-6 columns">
+        <p align="right">Maintainers :-</p>
+        </div>
+        
       </div>
     </div>
   </footer>
