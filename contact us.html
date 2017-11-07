@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+       <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <!--<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/myStyle.css">-->
+      
+      
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.css">
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.css">
+      
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>  
+   </head>
+ 
+  <body>
+  
+      
+      <!--page header-->
+        
+        <div class ="row">
+            <div id="page-header" class="small-12 columns">
+                <br>
+                <br>
+           </div>
+
+         </div>
+           <div class ="row">
+            <div id="page-header" class="small-12 columns">
+                <br>
+                
+           </div>
+
+         </div>
+<!------>
+      
+      
+      <section class= "Mail_Box">
+          
+          <div class="row">
+                  <div class="small-12 medium-3 columns"><h2> </h2></div>
+
+                 <div class="small-12 medium-6 columns text-center" style="color: #E85212;"> <h2> Get In Touch</h2>
+                     <br>
+                  <br>
+                  
+                  
+                  <br></div>
+                  
+                <div class="small-12 medium-3 columns"><h2></h2></div>
+          </div>
+         <div class="row">
+             <div class="small-12 medium-3 columns"><h2> </h2></div>
+                 <div id="Mail_box" class="small-12 medium-6 columns">
+                          
+                          
+                                <form>
+                                    <div class="row">
+                                        <div class="large-12 columns" style="border-radius: 5px;">
+                                             <label>
+                                                <input type = "text" placeholder = "Name">
+                                                 
+                                             </label>
+                                        </div>
+                                     </div>
+                                     
+                                     <label>
+                                        <input type = "text" placeholder = "Email">
+                                     </label>
+                                    
+                                     <label>
+                                        
+                                                
+                                                    <textarea placeholder="Message" rows="10"></textarea>
+                                                
+                                         
+                                   </label>
+                                    <label>
+                                    
+                                        <a class="button large expanded +">Submit</a>
+                                    
+                                        </label>
+                                  </form>
+                       
+                          </div>
+                          <div class="small-12 medium-3 columns"><h2> </h2></div>
+                      
+          </div>
+    </section>  
+          
+      
+  
+
+      <script>
+         $(document).ready(function() {
+            $(document).foundation();
+         })
+          
+          
+          $button-palette: (
+    black: #000000,
+    red: #ff0000,
+    purple: #bb00ff
+) !default;
+          
+          
+          
+          
+          var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/u/0/s/AKfycbzTRVUX93TtRrOvguBKN0oHJ5U28ABV7Xtf-69udITV9LXJxYz5/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+      </script>
+      
+      
+      
+      
+
+     
+      
+      
+  </body>
+</html>
