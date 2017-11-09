@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="css/myStyle.css">
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.css">
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>   
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+
     <style type="text/css">
       .bgimg-1, .bgimg-2, .bgimg-3 {
         position: relative;
@@ -53,12 +56,6 @@
         letter-spacing: 10px;
 
       }
-      h3 {
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        font: 20px "Lato", sans-serif;
-        color: #111;
-      }
 
       .full-width {
         max-width: 100%;
@@ -82,14 +79,17 @@
           div a{
       color: white;
     }
+    .Recruiters{
+        height: 100%;
+    }
     </style>
   </head>
   <body>
  <div class="row bgimg-1">
 <div class="large-12 columns">
 <div class="caption" style="opacity: 1;">
-    <span class="border" style="font-size: 52px; opacity: 1.0;"> <font style="opacity: 1 !important;"><b>The LNM Institute of Technology</b></font></span><br>
-    <span class="border" style="font-size: 52px; opacity: 1.0;"> <font style="opacity: 1 !important;"><b>Training & Placement Cell</b></font></span>
+    <span class="border" style="font-size: 4em; opacity: 1.0;"> <font style="opacity: 1 !important;"><b>The LNM Institute of Technology</b></font></span><br>
+    <span class="border" style="font-size: 4em; opacity: 1.0;"> <font style="opacity: 1 !important;"><b>Training & Placement Cell</b></font></span>
   </div>
 
 <div class="first" >
@@ -105,7 +105,7 @@
      
     </ul>
   </div>
-  <div class="top-bar-right large-6 columns" style="background-color: transparent;">
+  <div class="top-bar-right large-6 columns" id="responsive-menu" style="background-color: transparent;">
     <ul class="menu iconlist" style="background-color: transparent;">
           <li><a href="#0" style="color: #F0663B !important;font-size: 20px;"><b>Home</b></a></li>
       <li><a href="#0" style="color: #F0663B !important;font-size: 20px;"><b>Recruiters</b></a></li>
@@ -145,8 +145,8 @@
                 <div id="content" class="small-12 columns">
                     <div class="row">
                         <div class="small-12 medium-2 columns">  <h5> </h5> </div>
-                        <div class="small-12 medium-8 columns text-center"> <h3 style="color: #F0663B; font-weight: bold; line-height: 35px; font-size: 26px;"> About Us</h3>
-                            <h6 style="line-height: 0px; font-weight: 550; font-size: 22px; color: #1A1919;"> Training & Placement Cell</h6>
+                        <div class="small-12 medium-8 columns text-center"> <h3 style="color: #F0663B; font-weight: bold; line-height: 35px;margin-bottom: 20px;"> About Us</h3>
+                            <h6 style="line-height: 0px; font-weight: 550; font-size: 18px; color: #1A1919;"> Training & Placement Cell</h6>
                             <img src="lines.jpeg" class="alignright" style="padding-left: 400px;" alt="lines"/>
                             
                             
@@ -170,7 +170,7 @@
 <hr>
     <!--Director-->
       <div name="director" class="row">
-        <h2 class="heading" style="color:#F0663B; text-align: center; font-weight: bolder;">From the director's desk</h3>
+        <h3 class="heading" style="color:#F0663B; text-align: center; font-weight: bolder;">From the director's desk</h3>
             <br><br>
           <div class="grid-x grid-padding-x">
               <div class="large-2 medium-2 cell">
@@ -202,10 +202,23 @@
       <section class="Recruiters">
             
           <br>
-              <h3 class = "text-center" style="color: #F0663B; font-weight: 600; ">Our Recruiters</h3>
+              <h3 class = "text-center" style="color: #F0663B; font-weight: 600; margin-bottom: 40px;">Our Recruiters</h3>
           <br>
       
-      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+      
+            <div class="row responsive1">
+                <div><img src="microsoft.jpg" alt="microsoft"></div>
+                <div><img src="microsoft.jpg" alt="microsoft"></div>
+                <div><img src="microsoft.jpg" alt="microsoft"></div>
+                <div><img src="microsoft.jpg" alt="microsoft"></div>
+                <div><img src="microsoft.jpg" alt="microsoft"></div>
+            </div>
+
+
+
+
+
+      <!--<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <div class="orbit-wrapper">
           <div class="orbit-controls">
             <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -214,9 +227,9 @@
           <ul class="orbit-container" style="height: 100px;">
             <li class="is-active orbit-slide" >
                <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="orbit-image aligncenter" alt="microsoft" ></div> 
+                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div> 
                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div>        
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="orbit-image aligncenter" alt="microsoft" ></div> 
+                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div> 
                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div>       
                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div>           
                   </div>
@@ -257,12 +270,12 @@
           <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
           <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
         </nav>
-    </div>
+    </div>-->
       </section>
      
-      <footer class="row full-width" style="padding-left: 50px;margin-left: 0px;margin-right: 0px; background-color: #F0663B;">
+    <footer class="row responsive full-width" style="padding-left: 50px;margin-left: 0px;margin-right: 0px; background-color: #F0663B;">
       <br>
-      <div class="row full-width" style="margin-bottom: 5%;">
+      <div class="wrap row full-width" style="margin-bottom: 5%;">
         <div class="large-3 small-12 columns">
               <h6><b>Quick Links</b></h6>
               <a href="#">LNMIIT Home Page</a><br>
@@ -286,7 +299,7 @@
               Jaipur-302031</a>
             </div>
             <div class="large-3 small-12 columns">
-              <a href="mailto:placementcell.lnmiit@gmail.com" style="color: white;">placementcell.lnmiit@gmail.com</a>
+              <a href="mailto:info.tpc@lnmiit.ac.in" style="color: white;">info.tpc@lnmiit.ac.in</a>
               <p>Content</p>
             </div>
       </div>
@@ -299,14 +312,52 @@
         <p align="right">Maintainers :- Shobhit Asai, Vedarth Sharma, Kritika Singhal and Aastha Agarwal</p>
         </div>
         
-      </div>
     </div>
-  </footer>
+    </div>
+    </footer>
 
-          <script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
          $(document).ready(function() {
             $(document).foundation();
          })
+         $('.responsive1').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
       </script>
      
       
