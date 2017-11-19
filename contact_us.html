@@ -38,6 +38,9 @@
     footer hr{
       max-width:100%;
     }
+    .Mail_Box{
+      align-self: center;
+    }
     </style>
   </head>
   <body>
@@ -218,7 +221,50 @@
             <div class="large-9 column "><p class="con_head">Mehul Sharma</p><p class="con_data">Student Member</p></div>
         </div>
       </div>
-      
+            <section class= "Mail_Box">
+          
+          <div class="row responsive">
+                  <div class="small-12 medium-3 columns"><h2> </h2></div>
+
+                 <div class="small-12 medium-6 columns text-center" style="color: #F0663B;"> <h2> Get In Touch</h2>
+                     <br>
+                  </div>
+          </div>
+         <div class="row" align="align-center" style="max-width: 500px; margin-left:auto; margin-right: auto;">           
+                          
+                                <form>
+                                             <label>
+                                                <input type = "text" placeholder = "Name">
+                                                 
+                                             </label>
+                                        
+                                     
+                                     <label>
+                                        <input type = "text" placeholder = "Email">
+                                     </label>
+                                    
+                                     <label>
+                                        
+                                                
+                                                    <textarea placeholder="Message" rows="10"></textarea>
+                                                
+                                         
+                                   </label>
+                                    <label>
+                                    
+                                        <a class="button large expanded" style="background-color: #F0663B;">Submit</a>
+                                    
+                                        </label>
+                                  </form>
+                       
+                          
+                          <div class="small-12 medium-3 columns"><h2> </h2></div>
+                      
+          </div>
+    </section>
+
+
+
       <!--Footer-->
       <footer class="row" style="padding-left: 50px;padding-right: 50px; background-color: #F0663B;"><br>
           <div class="row align-center grid-x" style="margin-bottom: 5%;">
@@ -268,6 +314,35 @@
          $(document).ready(function() {
             $(document).foundation();
          })
+      </script>
+      <script>
+         $(document).ready(function() {
+            $(document).foundation();
+         })
+          
+          
+          $button-palette: (
+    black: #000000,
+    red: #ff0000,
+    purple: #bb00ff
+) !default;
+          
+          
+          
+          
+          var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/u/0/s/AKfycbzTRVUX93TtRrOvguBKN0oHJ5U28ABV7Xtf-69udITV9LXJxYz5/exec'
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
       </script>
      
 
