@@ -7,21 +7,17 @@
 	width: 120px;
 	border-color: #F0F0F0;
 	align-self: center;
-	position: relative;
 }
 .con_head{
 	font-size:16px;
 	margin-bottom: 0px;
 	font-weight: bold;
 	padding-top: 10px;
-	margin-left: 15px;
-	padding-left:15px;
-	align-content: center;
+	
 }
 .con_data{
 	color:#acacac;
-	margin-left: 15px;
-	padding-left: 15px;
+	
 	align-content: center;
 }
 
