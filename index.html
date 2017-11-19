@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/tpc.css">
-    <script src="js/vendor/jquery.js"></script>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
@@ -19,99 +18,47 @@
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/vendor/jquery.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>   
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-
+    <link rel="stylesheet" href="css/index1.css">
     <style type="text/css">
-      .bgimg-1, .bgimg-2, .bgimg-3 {
-        position: relative;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-      }
-      .bgimg-1 {
-        background-image: url("images/image3.jpeg");
-        opacity: 2;
-        height: 100%;
-        max-width: 100%;
-      }
-
-      .caption {
-        position: absolute;
-        left: 0;
-        top: 30%;
-        width: 100%;
-        text-align: center;
-        vertical-align: text-bottom;
-        opacity: 1.0;
-        color: #000;
-      }
-
-      .caption span.border {
-        color: #fff;
-        padding: 18px;
-        letter-spacing: 10px;
-      }
-
-      .full-width {
-        max-width: 100%;
-      }
-      footer div {
-        border-right: 0px;
-        color: white;
-
-      }
-
-      footer div:last-child {
-        border-right: 0px;
-      }
-     
-      .iconlist{
-          float: right;
-      }
-      nav div img{
-        height: 50px;
-      }
-          div a{
-      color: white;
-    }
-    .Recruiters{
-        height: 75%;
-    }
+    	.bgimg-1{
+    		background-image: url("images/image3.jpeg");
+    	}
     </style>
   </head>
   <body>
  <div class="row bgimg-1">
 <div class="large-12 columns">
-<div class="caption" style="opacity: 1;">
-    <span class="border" style="opacity: 1.0;"> <h1><b>The LNM Institute of Information Technology</b></h1></span><br>
-    <span class="border" style="opacity: 1.0;"> <h1><b>Training & Placement Cell</b></h1></span>
+<div class="caption">
+    <span class="border"> <h1><b>The LNM Institute of Information Technology</b></h1></span><br>
+    <span class="border"> <h1><b>Training & Placement Cell</b></h1></span>
   </div>
 
-<div class="first" >
-<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="background-color: transparent;">
-  <button class="menu-icon" type="button" data-toggle="responsive-menu" style="background-color: transparent;"></button>
-  <div class="title-bar-title" style="background-color: transparent;">Menu</div>
+<div class="first">
+<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+  <div class="title-bar-title">Menu</div>
 </div>
 
-<div class="top-bar" id="responsive-menu" style="background-color: transparent;">
-  <div class="top-bar-left" style="background-color: transparent;">
-    <ul class="dropdown menu" data-dropdown-menu style="background-color: transparent;">
+<div class="top-bar" id="responsive-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-logo"><img src="images/Logo-LNMIIT.svg" width="15%" height="15%"></li>
      
     </ul>
   </div>
-  <div class="top-bar-right large-6 columns" id="responsive-menu" style="background-color: transparent;">
-    <ul class="menu iconlist" style="background-color: transparent;">
-          <li><a href="#0" style="color: #F0663B !important;font-size: 20px;"><b>Home</b></a></li>
-      <li><a href="#0" style="color: #F0663B !important;font-size: 20px;"><b>Recruiters</b></a></li>
-      <li><a href="#0" style="color: #F0663B !important;font-size: 20px;"><b>Students</b></a></li>
-      <li><a href="#0" style="color: #F0663B !important;font-size: 20px;"><b>Academics</b></a></li>
-      <li><a href="contact_us.html" style="color: #F0663B !important;font-size: 20px;"><b>Contact</b></a></li>
+  <div class="top-bar-right large-6 columns" id="responsive-menu">
+    <ul class="menu iconlist" id="topul">
+          <li><a href="#0" id="topli"><b>Home</b></a></li>
+      <li><a href="#0" id="topli"><b>Recruiters</b></a></li>
+      <li><a href="#0" id="topli"><b>Students</b></a></li>
+      <li><a href="#0" id="topli"><b>Academics</b></a></li>
+      <li><a href="contact_us.html" id="topli"><b>Contact</b></a></li>
 
     </ul>
   </div>
@@ -144,12 +91,12 @@
                 <div id="content" class="small-12 columns">
                     <div class="row">
                         <div class="small-12 medium-2 columns">  <h5> </h5> </div>
-                        <div class="small-12 medium-8 columns text-center"> <h3 style="color: #F0663B; font-weight: bold; line-height: 35px;margin-bottom: 20px;"> About Us</h3>
-                            <h6 style="line-height: 0px; font-weight: 550; font-size: 18px; color: #1A1919;"> Training & Placement Cell</h6>
-                            <img src="lines.jpeg" class="alignright" style="padding-left: 400px;" alt="lines"/>
+                        <div class="small-12 medium-8 columns text-center"> <h3 class="headings">About Us</h3>
+                            <h6 id="subheading"> Training & Placement Cell</h6>
+                            <img src="lines.jpeg" class="alignright" id="linimg" alt="lines"/>
                             
                             
-                        <p style="color: #696969; text-align: justify;font-size: 16px; font-weight:500;">  Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance.
+                        <p class="paras">  Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance.
                                 The Institute, in spite of being young (founded in 2002, jointly by the Government of Rajasthan and the Lakshmi & Usha Mittal Foundation in the public-private partnership mode) is considered as one of the best institutions in its chosen areas of higher learning, both in the state and the country. In addition to having been accredited by the National Assessment & Accreditation Council (NAAC) as an ‘A’ grade institution, the LNMIIT has been ranked fairly high by many different agencies in the recent past as may be noticed elsewhere on this web-portal.</p>
                             <br>
                             <br>
@@ -166,10 +113,10 @@
           <br>
           <br>
       </section>
-<hr>
+     <hr class="linesep">
     <!--Director-->
       <div name="director" class="row">
-        <h3 class="heading" style="color:#F0663B; text-align: center; font-weight: bolder;">From the director's desk</h3>
+        <h3 class="headings">From the director's desk</h3>
             <br><br>
           <div class="grid-x grid-padding-x">
               <div class="large-2 medium-2 cell">
@@ -177,17 +124,17 @@
               </div>
               <div class="large-8 medium-8 cell">
                 <div class="grid-x grid-padding-x">
-                  <div class="large-3 medium-3 cell" style="align-content: center; padding-right: 0px">
-                      <div class="card-image" style="border-color: white">
-                        <img src="images/director-pic.jpg" style="border-radius: 70px;height: 150px">
+                  <div class="large-3 medium-3 cell" id="bocks">
+                      <div class="card-image">
+                        <img src="images/director-pic.jpg">
                       </div>
                       <div class="card-section">
-                        <h6 style="font-weight: 700">Rahul Banerjee</h6>
-                        <p style="font-weight: 500; font-size:15px">Director <br>The LNMIIT</p>
+                        <h6>Rahul Banerjee</h6>
+                        <p>Director<br>The LNMIIT</p>
                       </div>
                   </div>
-                  <div class="large-9 medium-9 cell" style="padding-left: 20px;">
-                   <p style="color: #696969; text-align: justify;font-size: 16px; font-weight:500;">Dear Professionals,<br> Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance. The Institute, in spite of being young (founded in 2002, jointly by the Government of Rajasthan and the Lakshmi & Usha Mittal Foundation in the public-private partnership mode) is considered as one of the best institutions in its chosen areas of higher learning, both in the state and the country. In addition to having been accredited by the National Assessment & Accreditation Council (NAAC) as an ‘A’ grade institution, the LNMIIT has been ranked fairly high by many different agencies in the recent past as may be notice d elsewhere on this web-portal. The Institute takes pride in its eco-system that aims to groom incoming students into academically strong yet well-rounded personality based professionals who could adapt themselves to the challenges posed by the ever-changing world and working environments. If you are an aspiring student, we welcome you to take a good look at our website to know more about what the Institute has to offer and preferably consider visiting the campus for getting to know it even better by getting the first hand feel of its ambience and interacting with faculty and students so that you could take a well-informed decision. If you have already applied to the LNMIIT, have been offered an admission and accepted the offer, Congratulations and Welcome to this new home of yours for next few years!</p>
+                  <div class="large-9 medium-9 cell">
+                   <p class="paras">Dear Professionals,<br> Welcome to The LNM Institute of Information Technology (LNMIIT), Jaipur! The LNMIIT is an institution of higher learning focused in select areas of Computing, Communication, ICT, Electronics and carefully chosen traditional engineering and sciences with an innovative blend of interdisciplinary flavor and contemporary relevance. The Institute, in spite of being young (founded in 2002, jointly by the Government of Rajasthan and the Lakshmi & Usha Mittal Foundation in the public-private partnership mode) is considered as one of the best institutions in its chosen areas of higher learning, both in the state and the country. In addition to having been accredited by the National Assessment & Accreditation Council (NAAC) as an ‘A’ grade institution, the LNMIIT has been ranked fairly high by many different agencies in the recent past as may be notice d elsewhere on this web-portal. The Institute takes pride in its eco-system that aims to groom incoming students into academically strong yet well-rounded personality based professionals who could adapt themselves to the challenges posed by the ever-changing world and working environments. If you are an aspiring student, we welcome you to take a good look at our website to know more about what the Institute has to offer and preferably consider visiting the campus for getting to know it even better by getting the first hand feel of its ambience and interacting with faculty and students so that you could take a well-informed decision. If you have already applied to the LNMIIT, have been offered an admission and accepted the offer, Congratulations and Welcome to this new home of yours for next few years!</p>
                   </div>
                 </div>
               </div>
@@ -196,7 +143,7 @@
         </div>
      
 
-        <hr style="background-color:#CCC; height: 1px; border: 0;">
+        <hr class="linesep">
       <!--recruiters-->
       <section class="Recruiters">
             
@@ -219,64 +166,6 @@
                 <div><img src="microsoft.jpg" alt="microsoft"></div>
                 <div><img src="microsoft.jpg" alt="microsoft"></div>
             </div>
-
-
-
-
-
-      <!--<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-        <div class="orbit-wrapper">
-          <div class="orbit-controls">
-            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-          </div>
-          <ul class="orbit-container" style="height: 100px;">
-            <li class="is-active orbit-slide" >
-               <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div>        
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div>       
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft" ></div>           
-                  </div>
-            </li>
-             <li class="is-active orbit-slide" >
-               <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="orbit-image aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>        
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="orbit-image aligncenter" alt="microsoft" ></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>       
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>           
-                  </div>
-            </li>
-             <li class="is-active orbit-slide" >
-               <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="orbit-image aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>        
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="orbit-image aligncenter" alt="microsoft" ></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>       
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>           
-                  </div>
-            </li>
-             <li class="is-active orbit-slide" >
-               <div class="row">
-                       <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="orbit-image aligncenter" alt="microsoft"></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>        
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="orbit-image aligncenter" alt="microsoft" ></div> 
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>       
-                      <div class="small-12 medium-2 columns"><img src="microsoft.jpg" class="aligncenter" alt="microsoft"></div>           
-                  </div>
-            </li>
-
-          </ul>
-        </div>
-        <nav class="orbit-bullets">
-          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-        </nav>
-    </div>-->
       </section>
      
     <footer class="row responsive full-width" style="margin-left: 0px;margin-left: 0px;margin-right: 0px; background-color: #F0663B; padding-right: 0px; padding: 0px;border: 0px;">
@@ -344,7 +233,7 @@
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: false
       }
@@ -353,14 +242,18 @@
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
       }
     }
   ]
