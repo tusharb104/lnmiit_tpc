@@ -15,10 +15,14 @@
 	font-weight: bold;
 	padding-top: 10px;
 	margin-left: 15px;
+	padding-left:15px;
+	align-content: center;
 }
 .con_data{
 	color:#acacac;
 	margin-left: 15px;
+	padding-left: 15px;
+	align-content: center;
 }
 
 .mar-right{
