@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>  
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+    <script src="js/jquery.serialize-object.min.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
@@ -232,18 +233,18 @@
           </div>
          <div class="row" align="align-center" style="max-width: 500px; margin-left:auto; margin-right: auto;">           
                           
-         <form>
+         <form id="test-form">
             <label>
-                <input type = "text" placeholder = "Name">
+                <input type = "text" name="Name" placeholder = "Name">
                                                  
              </label>
                                         
                                      
             <label>
-                <input type = "text" placeholder = "Email">
+                <input type = "text" name="Email" placeholder = "Email">
             </label>
-            <label><textarea placeholder="Message" rows="10"></textarea></label>
-            <label><a class="button large expanded" style="background-color: #F0663B;">Submit</a></label>
+            <label><textarea placeholder="Message" name="Message" rows="10"></textarea></label>
+            <label><button class="button large expanded" type="submit" id="submit-form" style="background-color: #F0663B;">Submit</label>
         </form>
                        
                           
@@ -306,25 +307,11 @@
          })
       </script>
       <script>
-         $(document).ready(function() {
-            $(document).foundation();
-         })
-          
-          
-          $button-palette: (
-    black: #000000,
-    red: #ff0000,
-    purple: #bb00ff
-) !default;
-          
-          
-          
-          
-          var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/u/0/s/AKfycbzTRVUX93TtRrOvguBKN0oHJ5U28ABV7Xtf-69udITV9LXJxYz5/exec'
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
+    var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbwATt-9_gCoCYYkcXylHvsdSBgCaS-1yllhqNPpWXU1iBBgl8_Y/exec'
+    $('#submit-form').on('click', function(e) {
+    e.preventDefault();
+    var jqxhr = $.ajax({
     url: url,
     method: "GET",
     dataType: "json",
