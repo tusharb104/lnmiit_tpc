@@ -45,7 +45,24 @@
   	border-left: 0px;
   	border-bottom: 0px;
 }
+.rec_box{
+	position: relative;
+	align-self: center;
+	justify-content: space-between;
+	margin-left: 3em;
+	height: 17em;
+}
 
 .email_link{
 	color:#acacac;
+}
+.paras{
+	color:#696969;
+}
+.rec_pic {
+	border-radius: 100%;
+	border-color: #F0F0F0;
+	align-self: center;
+	height:2.5em;
+	position: relative;
 }
