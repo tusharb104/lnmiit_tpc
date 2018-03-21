@@ -122,11 +122,21 @@
 }
 .size{
 	font-size: 13.5px;
-}
- a.ddmenu:hover, a.ddmenu:visited, a.ddmenu:active, a.ddmenu:link{
-	color: #F0663B;
 
 }
+a.ddmenu:hover{
+	background-color: #E85212;
+    color: white !important;
+}
+ a.ddmenu:link, a.ddmenu:active, a.ddmenu:visited{
+ 	color:#F0663B ;
+ }
+
+a.ddmenua:hover, a.ddemenua:link, a.ddmenua:active, a.ddmenua:visited{
+	color:#F0663B !important;
+}
+
+
 .myButton{
 	-moz-box-shadow: 0px 0px 0px 0px #f0f7fa;
 	-webkit-box-shadow: 0px 0px 0px 0px #f0f7fa;
