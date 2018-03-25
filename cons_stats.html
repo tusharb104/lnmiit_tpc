@@ -239,16 +239,16 @@
                 function drawVisualization() {
                   // Some raw data (not necessarily accurate)
                   var data = google.visualization.arrayToDataTable([
-                   ['Year', 'Placed', 'Registered'],
-                   ['2018',  178,      218],
-               ['2017',  192,      224],
-                   ['2016',  168,      195    ],
-                   ['2015',  143,      165    ],
+                   ['Year', 'Average Package'],
+                   ['2018',  7.27],
+                   ['2017',  6.98],
+                   ['2016',  5.47],
+                   ['2015',  4.10],
                    // ['2014',  195,          ],
                 ]);
 
               var options = {
-                title : 'No. of Placed vs Registered Students',
+                title : 'Yearwise Average Package',
                 vAxis : {baseline : 0},
                 hAxis: {title: 'Year'},
                 seriesType: 'bars',
