@@ -1,11 +1,9 @@
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+  
+      .bgimg-1 {
         position: relative;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
-      }
-      .bgimg-1 {
         background-image: url("images/image3.jpeg");
         opacity: 2;
         height: 100%;
@@ -151,3 +149,4 @@
     .linesep{
       background-color:#CCC; height: 1px; border: 0;
     }
+   
