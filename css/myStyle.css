@@ -6,7 +6,9 @@ About us
 	border-bottom: solid grey 1px;
         
 }
-
+.Director{
+	border-bottom: solid grey 1px;
+}
 .About-us .row.h2{
     align-content: center;
 }

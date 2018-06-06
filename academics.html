@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Placement Cell, LNMIIT</title>
-    <link rel="icon" href="https://placements.lnmiit.ac.in/images/logo.png">
+    <link rel="icon" href="https://www.lnmiit.ac.in/images/favicon.ico">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/tpc.css">
@@ -28,30 +28,27 @@
           footer div:last-child {
             border-right: 0;
           }
-          ul li a:hover{
-            background-color: #E85212;
-            color: white !important;
-    }
-    div a{
-      color: white;
-    }
-    footer hr{
-      max-width:100%;
-    }
-    .Mail_Box{
-      align-self: center;
-    }
-    .tabs1{
-      text-align: center;
-    }
-    .tabs1 li{
-            display: inline-block;
-    vertical-align: bottom;
-    align-self: center;
-    }
+          
+          div a{
+            color: white;
+          }
+          footer hr{
+            max-width:100%;
+          }
+          .Mail_Box{
+            align-self: center;
+          }
+          .tabs1{
+            text-align: center;
+          }
+          .tabs1 li{
+                  display: inline-block;
+          vertical-align: bottom;
+          align-self: center;
+          }
     </style>
   </head>
-  <body>
+  <body onload="myfun()">
 <div class="row full-width" style="box-shadow: 1.5px 1.5px 8px #F0F0F0;">
   <div class="large-12 columns">
     <div class="first">
@@ -63,26 +60,28 @@
       <div class="top-bar row grid-x" id="responsive-menu" style="background-color: white;">
         <div class="top-bar-center large-6 columns" style="background-color: white;">
           <ul class="menu" data-dropdown-menu style="background-color: white;">
-            <li class="menu-logo" style="margin-left: 10px;"><img src="images/Logo-LNMIIT.svg" width="15%" height="15%"></li>
+             <li class="menu-logo" style="margin-left: 10px; max-width: 15%;"><a href="index.html" style="padding: 0px;"><img src="images/Logo-LNMIIT.svg" width="" height=""></a></li>
+             <li></li>
+             <li></li>
           </ul>
         </div>
         <div class="top-bar-right" id="responsive-menu" style="background-color: white;">
           <ul class="menu iconlist" style="background-color: white;">
-            <li><a href="index.html" style="color: #F0663B  ;font-size: 20px; margin-right: 3px;"><b>Home</b></a></li>
-            <li><a href="recruiters.html" style="color: #F0663B;font-size: 20px; margin-right: 3px;"><b>Recruiters</b></a></li>
-            <li><a href="#0" style="color: #F0663B;font-size: 20px; margin-right: 3px;"><b>Students</b></a></li>
+            <li><a href="index.html" style="color: #F0663B  ;font-size: 20px;"><b>Home</b></a></li>
+            <li><a href="recruiters.html" style="color: #F0663B;font-size: 20px;"><b>Recruiters</b></a></li>
+            <li><a href="cons_stats.html" style="color: #F0663B;font-size: 20px;"><b>Statistics</b></a></li>
             <li><ul class="dropdown menu" style="background-color: white" data-dropdown-menu>
-                  <li>
-                    <a href="academics.html" class="ddmenu" style="font-size: 20px; "><b>Life At LNMIIT</b></a>
+            <li>
+                    <a href="#" class="ddmenua" id="lifeat" style="font-size: 20px; color: #F0663B "><b>Life at LNMIIT</b></a>
                     <ul class="menu">
-                      <li><a href="academics.html">Academic Momentum</a></li>
-                      <li><a href="Prof_societies.html">Professional Societies</a></li>
-                      <li><a href="centres.html">Centers for Advanced Learning</a></li>
-                      <li><a href="#">Student Clubs</a></li>
+                      <li><a class="ddmenu" href="#">Academic Momentum</a></li>
+                      <li><a class="ddmenu" href="Prof_societies.html">Professional Societies</a></li>
+                      <li><a class="ddmenu" href="centres.html">Centers for Advanced Learning</a></li>
+                      <li><a class="ddmenu" href="clubs.html">Student Clubs</a></li>
                     </ul>
                   </li>
                 </ul></li>
-            <li><a href="contact_us.html" style="color: #F0663B;font-size: 20px; margin-right: 15px;"><b>Contact</b></a></li>
+            <li><a href="contact_us.html" style="color: #F0663B;font-size: 20px;"><b>Contact</b></a></li>
           </ul>
         </div>
       </div>
@@ -103,28 +102,125 @@
               <div class="large-10 medium-10 cell">
                 <div class="grid-x grid-padding-x" align="justify">
                    <p class="paras">
-                   At LNMIIT, students work hard to create a bright future for themselves and for the community. They study various subjects and sharpen their intellectual and work-related skills from basic English to managing complex computer networks to critical thinking of analytical problems. This rigorous process empowers them to pursue their interests in the academia or in industry. To this end, the institute and students have taken several initiatives, a few of which are listed below: </p>
+                   At LNMIIT, students work hard to create a bright future for themselves and for the community. They study various subjects and sharpen their intellectual and work-related skills from basic English to managing complex computer networks to critical thinking of analytical problems. This rigorous process empowers them to pursue their interests in the academia or in industry.
+                   To this end, the institute and students have taken several initiatives, a few of which are listed below: </p>
 
                 </div>
 
 
             <ul class="tabs tabs1" data-tabs id="example-tabs" style="text-align: center;">
-              <li class="tabs-title is-active" style="text-align: center;"><a href="#panel1" aria-selected="true">Curriculum</a></li>
-              <li class="tabs-title" style="text-align: center;"><a data-tabs-target="panel2" href="#panel2">Summer Trainings</a></li>
+              <li class="tabs-title is-active" style="text-align: center;"><a href="#panel1" aria-selected="true">B.tech</a></li>
+               <li class="tabs-title" style="text-align: center;"><a data-tabs-target="panel2" href="#panel2">M.tech/M.Sc</a></li>
+               <li class="tabs-title" style="text-align: center;"><a data-tabs-target="panel3" href="#panel2">Ph.D</a></li>
+              
             </ul>
             <div class="tabs-content" data-tabs-content="example-tabs">
               <div class="tabs-panel is-active" id="panel1">
-                <p class="paras">Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+                <p class="paras"><b>Computer Science and Engineering:</b><br>
+                  The CSE discipline was established to train engineers at UG and PG levels, equip them
+                  with the fundamental concepts and techniques of computing and applications,
+                  relevant to emerging technological advancements. The program is focussed to foster a
+                  learning environment that produces high quality computer professionals readily
+                  employable by the industry and research organizations. The program also provides an
+                  opportunity to conduct collaborative research focusing on emerging trends in
+                  domains like Software Engineering, Distributed and Cloud Computing, Data Mining,
+                  Data Warehousing and Multi-core Architecture.<br>
+                  The CSE discipline is supported by a team of faculty members having excellent
+                  research credentials as well as extensive industry experience. The lab facilities include
+                  Programming Lab, Digital Communication Lab, DBMS Lab, and Computer Networks
+                  Lab.<br><br>
+                  <b>Communication and Computer Engineering:</b><br>
+                  The CCE discipline was established in the year 2003, with the objective of making
+                  engineers at UG and PG levels capable of dealing with the fusion of electronic
+                  communication and computer science, a trend relevant to today’s industry needs. The
+                  discipline also aims at conducting research focusing on the fusion of
+                  multi-disciplinary skills employed in designing modern computing devices with
+                  communication channels and communication systems with advanced computer
+                  algorithms.<br>
+                  The CCE discipline is arguably the best career option on offer at LNMIIT, in terms of
+                  market needs and growth prospects. The discipline is ably supported by an excellent
+                  team of faculty members, many of them having extensive industry-based experience.
+                  The CCE lab facilities include the Electronics Lab, Analog Communication Lab,
+                  Programming Lab, Digital Communication Lab, DBMS Lab, Computer Networks Lab,
+                  ECAD Lab and Microwave and Optical Communication Lab.<br><br>
+                  <b>Electronics and Communication Engineering:</b><br>
+                  The ECE discipline was introduced to impart, both in depth and content, the basic
+                  fundamental knowledge and understanding in the area of Electronics and
+                  Communication Engineering, with the vision to become a unique and top-notch
+                  department through pioneering excellence in teaching, research and scholarship. It
+                  aims to keep students fully tuned to the pace of growth of the modern trends of
+                  technology along with real life applications and challenges. The ECE team is a fine 
+                  blend of renowned as well as young and dynamic faculty members, having education
+                  and experience from renowned institutions in India and abroad. The ECE department
+                  also offers specialized M.Tech. and Dual Degree program in Communication Systems,
+                  Microelectronics, Microwave engineering and VLSI.<br><br>
+
+                  <b>Mechanical - Mechatronics Engineering:</b><br>
+                  The Mechanical - Mechatronics Engineering (MME) discipline was established with
+                  the objective to train graduates for dealing with real life challenges in the field of
+                  Mechanical and Mechatronics industries and equip them with the fundamental
+                  concepts and techniques of mechatronics applications, relevant to emerging
+                  technological advancements. The program is focussed to conduct collaborative
+                  research, focusing on emerging trends in domains like Computer Aided
+                  Manufacturing, Design Engineering, Automation, Robotics etc.
+                  The MME discipline is supported by a team of faculty members having excellent
+                  research credentials as well as extensive industry experience.<br><br>
+
+                  <b>Mechanical Engineering:</b><br>
+                  The main objective of the mechanical engineering undergraduate program is to
+                  impart the ability to deal with real life challenges in the field of Mechanical industries
+                  and equip them with the fundamental concepts and techniques of Mechanical
+                  engineering applications, relevant to emerging technological advancements. The
+                  graduates will become Mechanical professionals readily employable by the industry
+                  and research organizations. The program is focussed to conduct collaborative
+                  research focusing on emerging trends in domains like Computer aided manufacturing,
+                  Design engineering, thermal engineering, Robotics etc. The program also provides an
+                  opportunity to develop communication, leadership skills and an understanding of
+                  ethical choices in the engineering profession.<br>
+
+              </p>
               </div>
-              <div class="tabs-panel" id="panel2">
-              <h5 class="headings" style="color:#F0663B;align-content: center;">Summer Trainings</h5>
-                <p class="paras" > 1. Every year the institute offers an Industrial training to about 25 meritorious students from the 3rd year, at ArcelorMittal Steel Plant, Kazakhstan. The training is aimed at providing the students with an exposure to the Industrial environment at a global level.<br>
-                2. Students go to various research labs and universities worldwide for summer projects. These include University of Manitoba, Canada; UAB, Spain; Western Michigan University, USA; INRIA, France; University of Cassino, Italy; ICCL Lab, CPU, Taiwan; Polytechnic University, New York, USA; University Of Warwick, UK; CBIA, Brno, Czech Republic; SUT, Thailand.<br>
-                3. At LNMIIT, we facilitate student exchange programmes, under which students get an opportunity to spend a semester at elite institutions like Knoesis Centre, Ohio State University, USA; IIIT Hyderabad, IIT Gandhinagar and IIT Delhi.<br>
-                4. Students have also done their summer training at renowned companies including TCS, CISCO, Microsoft, Ericsson etc.<br>
-                5. Students get a chance to receive training at CERN, Switzerland, which is one of the world's largest laboratories founded by the European union. It is also the birthplace of World Wide Web (WWW).<br>
-                Summer projects are also undertaken by the students at elite institutes including IITs, IISc Bangalore, IIIT Hyderabad, IIIT Delhi and BITS Pilani. </p>
+               <div class="tabs-panel" id="panel2">
+              <h5 class="headings" style="color:#F0663B;align-content: center;">Postgraduate programs</h5>
+                <p class="paras" > The goals of the postgraduate programs at the LNM Institute of Information Technology (LNMIIT) Jaipur are: The development of scientific and engineering manpower of the highest quality, to cater to the needs of industry, R & D organizations and educational institutions, a broad grasp of the fundamental principles of the sciences and scientific methods, a deep understanding of the area of specialization, an innovative ability to solve new problems, and a capacity to learn continually and interact with multidisciplinary groups. Above all, the students should have a capacity for free and objective inquiry, courage and integrity, awareness and sensitivity to the needs and aspirations of society.<br>
+                At present, M. Tech and MS programs are offered in Computer Science and Engineering, Electronics and Communication Engineering, and Communication and Computer Engineering. The Ph. D. programs exist in various areas of interest to the faculty.
+                <b>M.tech/ M.Sc.</b><br>
+                M.Tech Program students, irrespective of their discipline, must do a minimum of 32
+                credits through course work and a minimum of 36 credits through research (thesis)
+                work.<br>
+                The courses offered for CSE discipline are:</p>
+                <ul class="paras">
+                <li>Mathematical Structures for Engineers</li>
+                <li>Advanced Software Engineering</li>
+                <li>Data Mining</li>
+                <li>Advanced Data Structures and Algorithms</li></ul>
+                <p class="paras">The courses offered for ECE discipline are:<br></p><ul class="paras">
+                <li> Fundamentals of Computer Science (FoCS)</li>
+                <li>Fundamentals of Electronic and Communications (FoEC)</li>
+                <li> Advanced Digital Signal Processing (ADSP)</li>
+                <li>Modern Digital Communication (MDC)</li></ul>
+                <p class="paras">The courses offered for CCE discipline are:<br></p><ul class="paras">
+                <li>Fundamentals of Computer Science (FoCS)</li>
+                <li> Fundamentals of Electronics and Communications (FoEC)</li>
+                <li>Two compulsory courses from any of the following three: Advanced Digital</li>
+                <li>Signal Processing (ADSP)/ Modern Digital Communication (MDC)/ Topics in
+                Computer Science (ToCS) </li></ul><br>
               </div>
+              <div class="tabs-panel" id="panel3">
+              <h5 class="headings" style="color:#F0663B;align-content: center;">Ph.d</h5>
+                <p class="paras" >The Ph.D. program mandates that the students:
+                  <ul class="paras"><li>With M. Tech degree, irrespective of their discipline, must do a minimum of
+                  16 credits through course work and a minimum of 64 credits through research
+                  (thesis) work,</li>
+                  <li>With Msc, MA and M Phil degree, irrespective of their discipline, must do a
+                  minimum of 24 credits through course work and a minimum of 64 credits
+                  through research (thesis) work, and</li>
+                  <li>With B. Tech degree, irrespective of their discipline, must do a minimum of 32
+                  credits through course work and a minimum of 64 credits through research
+                  (thesis) work.</li></ul></p>
+              </div>
+              
+              
             </div>
 
               </div>
@@ -140,20 +236,17 @@
             <div class="large-3 small-12 columns size">
               <h6><b>Quick Links</b></h6>
               <a href="https://www.lnmiit.ac.in/">LNMIIT Home Page</a><br>
-              <a href="https://www.plinth.in/">Plinth-Techno Management Fest </a><br>
-              <a href="http://vivacity.lnmiit.ac.in/">Vivacity-Cultural Fest</a><br>
-              <a href="http://www.desportivos.lnmiit.ac.in/">Desportivos-Sports Fest</a>
+              <a href="recruiters.html">Recruiters </a><br>
+              <a href="cons_stats.html">Statistics</a><br>
             </div>
             <div class="large-3 small-12 columns size">
               <h6><b>Download</b></h6>
               <a href="http://placements.lnmiit.ac.in/pbl.pdf">Placement Brochure</a><br>
-              <a href="http://placements.lnmiit.ac.in/policy/Placementpolicy.pdf">Placement Policy</a><br>
-              <a href="http://placements.lnmiit.ac.in/policy/Internshippolicy.pdf">Internship Policy</a><br>
-              <a href="http://placements.lnmiit.ac.in/esperra/esperra19.pdf">Esperra' 18</a>
+              
             </div>
             <div class="large-3 small-12 columns size">
               <h6><b>Contact</b></h6>
-              TPO Office<br>
+              Placement Office<br>
               Guest House<br>
               The LNM Institute of Information & Technology<br>
               Rupa ki Nangal, Post Sumel, Via Jamdoli<br>
@@ -161,18 +254,18 @@
             </div>
             <div class="large-3 small-12 columns size">
               <br>
-              <a href="mailto:info.tpc@lnmiit.ac.in" style="color: white;">info.tpc@lnmiit.ac.in</a><br>
-              <img src="images/phone-icon-orange.png" style="height: 1.5em">+91 141-2689015
+              <img src="images/mail_icon.png" style="height: 1.2em"> <a href="mailto:tpo@lnmiit.ac.in" style="color: white;">tpo@lnmiit.ac.in</a><br>
+              <img src="images/phone-icon-orange.png" style="height: 1.5em">+91 141-2689015, 8696792550
             </div>
           </div>
 
           <hr style="color: white">
           <div class="row align-center grid-x size" style="margin-left:15px;margin-right:15px; ">
           <div class="large-6 columns">
-                    <p>Copyright 2017. All rights reserved | Placement Cell LNMIIT</p>
+                    <p>Copyright 2018. All rights reserved | Placement Cell LNMIIT</p>
           </div>
           <div class="large-6 columns">
-            <p align="right">Maintainers :- Shobhit Asai,Jiten Sadhwani, Vedarth Sharma, Aastha Agarwal, Kritika Singhal</p>
+            <p align="right">Developers :- Jiten Sadhwani, Vedarth Sharma, Aastha Agarwal, Kritika Singhal</p>
             
           </div>
           </div>
@@ -181,6 +274,11 @@
          $(document).ready(function() {
             $(document).foundation();
          })
+      </script>
+      <script type="text/javascript">
+        function myfun() {
+          document.getElementById('lifeat').click();
+        }
       </script>
      
   </body>

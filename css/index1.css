@@ -1,11 +1,9 @@
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+  
+      .bgimg-1 {
         position: relative;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
-      }
-      .bgimg-1 {
         background-image: url("images/image3.jpeg");
         opacity: 2;
         height: 100%;
@@ -40,7 +38,13 @@
       }
       footer{
 
-        margin-left: 0px;margin-left: 0px;margin-right: 0px; background-color: #F0663B; padding-right: 0px; padding: 0px;border: 0px;
+        margin-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px; 
+        background-color: #F0663B; 
+        padding-right: 0px; 
+        padding: 0px;
+
       }
 
       footer div {
@@ -49,7 +53,7 @@
 
       }
       #footrow{
-        margin-bottom: 8%;margin-left: 20px;margin-left: 0px;margin-right: 0px; background-color: #F0663B; padding-right: 0px; padding: 0px;
+        margin-bottom:5%;margin-left: 20px;margin-left: 0px;margin-right: 0px; background-color: #F0663B; padding-right: 0px; 
       }
       #foota{
         color: white;
@@ -62,7 +66,7 @@
       }
 
       #footrow2{
-        margin-left: 0px;margin-left: 0px;margin-right: 0px; background-color: #F0663B; padding-right: 0px;border-top: solid white 1px; padding-top: 20px;
+        margin: 0px 0px 0px 0px; background-color: #F0663B; padding-right: 0px;border-top: solid white 1px; padding-top: 20px;
       }
      
       .iconlist{
@@ -102,7 +106,7 @@
     #topli{
 
       color: #F0663B !important;
-      font-size: 20px;
+      font-size: 21px;
     }
     .heading_recruiters{
       color: #F0663B; line-height: 35px;margin-bottom: 15px;margin-top: 30px;text-align: center;
@@ -145,7 +149,4 @@
     .linesep{
       background-color:#CCC; height: 1px; border: 0;
     }
-
-    footer{
-      line-height: 120%;
-    }
+   
